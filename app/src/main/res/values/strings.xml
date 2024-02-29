@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VideoTranslator</string>
+    <string name="mirror">*********</string>
+    <string name="title_activity_film_description">FilmDescription</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eng_name">Англ название</string>
+    <string name="watch">Смотреть</string>
+    <string name="year">Год</string>
+    <string name="country">Страна</string>
+    <string name="director">Режиссер</string>
+    <string name="genre">Жанр</string>
+    <string name="duration">Время</string>
+    <string name="cast">В ролях</string>
+    <string name="description">Описание</string>
+    <string name="name">Name</string>
+    <string name="date_couuntry_genre">дата,страна,жанр</string>
+    <string name="translation_season_episode_quality">Перевод/эпизод/сезон/качество</string>
+    <string name="selection">Название раздела</string>
+    <string name="news">Новинки</string>
+    <string name="films">Фильмы</string>
+    <string name="series">Сериалы</string>
+    <string name="cartoons">Мультфильмы</string>
+    <string name="anime">Аниме</string>
+    <string name="search">Поиск</string>
+    <string name="change_mirror">Смена зеркала</string>
+    <string name="logo">logo</string>
+    <string name="_1">1</string>
+    <string name="poster">Постер</string>
+</resources>

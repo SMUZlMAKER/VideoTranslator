@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/baseline_fiber_new_24"
+                android:title="@string/news">
+
+            </item>
+            <item
+                android:id="@+id/films"
+                android:icon="@drawable/baseline_local_movies_24"
+                android:title="@string/films">
+
+            </item>
+            <item
+                android:id="@+id/Series"
+                android:icon="@drawable/baseline_video_library_24"
+                android:title="@string/series">
+
+            </item>
+            <item
+                android:id="@+id/cartoons"
+                android:icon="@drawable/baseline_toys_24"
+                android:title="@string/cartoons">
+
+            </item>
+            <item
+            android:id="@+id/animation"
+            android:icon="@drawable/baseline_catching_pokemon_24"
+            android:title="@string/anime">
+        </item>
+
+    <group android:id="@+id/group_search">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/baseline_search_24"
+            android:title="@string/search">
+        </item>
+    </group>
+    <group android:id="@+id/group_settings">
+    <item
+        android:id="@+id/set_mirror"
+        android:icon="@drawable/baseline_webhook_24"
+        android:title="@string/change_mirror">
+    </item>
+</group>
+</menu>

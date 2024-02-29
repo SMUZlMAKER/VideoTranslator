@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VideoTranslator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Theme.VideoTranslator" parent="Base.Theme.VideoTranslator" />
+
+    <style name="Theme.VideoTranslator.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.VideoTranslator.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.VideoTranslator.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
