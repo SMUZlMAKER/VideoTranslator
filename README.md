@@ -7,4 +7,4 @@
 
    Приложение было создано и использовано лишь в рамках обучения и не подлежит распространению
 ## Пример работы представлен в видео
-https://github.com/SMUZlMAKER/VideoTranslator/assets/100784205/5cbf7b34-9d74-4549-a2b5-e1eea4a873c7
+https://github.com/SMUZlMAKER/VideoTranslator/assets/100784205/ae0628fd-f98b-47aa-9b6b-bd368b2add67
