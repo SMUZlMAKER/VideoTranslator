@@ -20,7 +20,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     public static final String APP_PREFERENCES = "mirror";
-    public static final String APP_PREFERENCES_MIRROR = "https://hdrezkawer.org";
+    public static final String APP_PREFERENCES_MIRROR = "https://ffff";
     SharedPreferences mirror;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle("Сменить зеркало");
             EditText input = new EditText(this);
-            input.setHint("Любое письмо на mirror@hdrezka.org");
+            input.setHint("Любое письмо на *******");
             alert.setView(input);
 
             alert.setPositiveButton("Ок", (dialog, whichButton) -> {

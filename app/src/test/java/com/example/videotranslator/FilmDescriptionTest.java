@@ -40,9 +40,9 @@ public class FilmDescriptionTest {
                 " В это самое время один человек рискует попасть в немилость к безжалостному " +
                 "Марселласу – боксер Бутч, который за деньги гангстера должен проиграть в " +
                 "боксерском поединке.");
-        expected.put("posterUrl", "https://static.hdrezka.ac/i/2021/3/17/q6e275b47b126xt59x65c.jpeg");
+        expected.put("posterUrl", "**********");
         ArrayMap<String, String> received = new FilmDescriptionModel().LoadDescription(
-                "https://hdrezkawer.org/films/drama/822-kriminalnoe-chtivo-1994.html");
+                "**********");
         if (expected.size() + 1 != received.size())
             return false;
         Set<String> keys = expected.keySet();
@@ -59,7 +59,7 @@ public class FilmDescriptionTest {
     public void descriptionTest() {
         assertTrue(descriptionComparison());
         assertEquals("Ошибка загрузки, проверьте интернет или смените зеркало", new FilmDescriptionModel().LoadDescription(
-                "https://hdrezkawer.org/films/drama/822-kriminalnoe-cht").get("name"));
+                "**********").get("name"));
     }
 
     public boolean translationComparison() {
@@ -112,8 +112,8 @@ public class FilmDescriptionTest {
         Bundle args = mock(Bundle.class);
         when(args.getInt("chapter")).thenReturn(0);
         when(args.getString("id")).thenReturn("2090");
-        when(args.getString("mirror")).thenReturn("https://hdrezkawer.org");
-        when(args.getString("filmUrl")).thenReturn("https://hdrezkawer.org/series/fiction/2090-flesh-2014.html");
+        when(args.getString("mirror")).thenReturn("**********");
+        when(args.getString("filmUrl")).thenReturn("**********");
 
         ArrayList<ItemVideo> received = new VideosModel().LoadVideos(args);
 
@@ -206,8 +206,8 @@ public class FilmDescriptionTest {
         Bundle args = mock(Bundle.class);
         when(args.getInt("chapter")).thenReturn(1);
         when(args.getString("id")).thenReturn("2090");
-        when(args.getString("mirror")).thenReturn("https://hdrezkawer.org");
-        when(args.getString("filmUrl")).thenReturn("https://hdrezkawer.org/series/fiction/2090-flesh-2014.html");
+        when(args.getString("mirror")).thenReturn("**********");
+        when(args.getString("filmUrl")).thenReturn("**********");
         when(args.getString("translator_id")).thenReturn("1");
 
         ArrayList<ItemVideo> received = new VideosModel().LoadVideos(args);
@@ -275,8 +275,8 @@ public class FilmDescriptionTest {
         Bundle args = mock(Bundle.class);
         when(args.getInt("chapter")).thenReturn(2);
         when(args.getString("id")).thenReturn("57880");
-        when(args.getString("mirror")).thenReturn("https://hdrezkawer.org");
-        when(args.getString("filmUrl")).thenReturn("https://hdrezkawer.org/series/realtv/57880-sirena-vyzhit-na-ostrove-2023.html");
+        when(args.getString("mirror")).thenReturn("**********");
+        when(args.getString("filmUrl")).thenReturn("**********");
         when(args.getString("translator_id")).thenReturn("238");
         when(args.getString("season")).thenReturn("1");
         when(args.getString("episode")).thenReturn("5");
@@ -339,8 +339,8 @@ public class FilmDescriptionTest {
         Bundle args = mock(Bundle.class);
         when(args.getInt("chapter")).thenReturn(3);
         when(args.getString("id")).thenReturn("57880");
-        when(args.getString("mirror")).thenReturn("https://hdrezkawer.org");
-        when(args.getString("filmUrl")).thenReturn("https://hdrezkawer.org/series/realtv/57880-sirena-vyzhit-na-ostrove-2023.html");
+        when(args.getString("mirror")).thenReturn("**********");
+        when(args.getString("filmUrl")).thenReturn("**********");
         when(args.getString("translator_id")).thenReturn("238");
         when(args.getString("season")).thenReturn("1");
         when(args.getString("episode")).thenReturn("1");
